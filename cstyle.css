@@ -134,6 +134,33 @@ img.hfe-site-logo-img.elementor-animation- {
   object-fit: contain !important;
 }
 
+.elementor-5 .elementor-element.elementor-element-226475d:not(.elementor-motion-effects-element-type-background), .elementor-5 .elementor-element.elementor-element-226475d > .elementor-motion-effects-container > .elementor-motion-effects-layer
+{
+  background-image: none !important;
+}
+.elementor-5 .elementor-element.elementor-element-226475d > .elementor-background-overlay{
+  background-color: black !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*flash*/
