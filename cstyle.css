@@ -127,6 +127,9 @@ img.hfe-site-logo-img.elementor-animation- {
   box-shadow: none !important;
 }
 
+.elementor-5 .elementor-element.elementor-element-896952e img {
+  object-fit: contain !important;
+}
 
 
 
