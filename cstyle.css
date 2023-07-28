@@ -109,6 +109,10 @@ img.hfe-site-logo-img.elementor-animation- {
   justify-content: center;
 }
 
+.elementor-kit-4 button, .elementor-kit-4 input[type="button"], .elementor-kit-4 input[type="submit"], .elementor-kit-4 .elementor-button
+{
+  border-color: black !important;
+}
 
 
 
