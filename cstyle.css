@@ -82,11 +82,14 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
     background-image: url(../img/waitlistBg.gif);
 }
 
-.navFix {
+#navFix {
+  opacity: 0; /* hide by default */
+  top: 0; 
     position: fixed;
     margin: 0 auto;
     width: 100%;
     background: #0000007a;
+    transition: opacity 0.5s ease;
 }
 @media (max-width: 600px) {
   .elementor-section .elementor-container {
