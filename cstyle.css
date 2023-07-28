@@ -1,0 +1,53 @@
+.aboutSec {
+    align-items: center  !important;
+}
+
+a.elementor-button.elementor-button-link.elementor-size-sm.elementor-animation-bob,
+a.hfe-menu-item.elementor-button,
+a.elementor-button.elementor-button-link.elementor-size-sm{
+    background-image: linear-gradient(to right, orange, red)  !important;
+}
+
+.elementor-5 .elementor-element.elementor-element-c2b00fa > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-52db1ae > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-5426640 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-18903e9 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-77cd434 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-528d998 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-117eff0 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-117eff0 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-0b29ff1 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-66dfef3 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-21ede7b > .elementor-element-populated {
+    border-image: linear-gradient(to right, orange, red) !important;
+}
+
+
+.elementor-5 .elementor-element.elementor-element-4589546 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-306ff72 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-01c2a78 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-fab7842 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-f80229b .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-626de9d .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-267bf72 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-d7770ef .jeg-elementor-kit.jkit-heading .heading-title > span,
+.elementor-5 .elementor-element.elementor-element-d1e734b .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-a6f6f76 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-b8a57ac .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-17bc557 .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-650237f .elementor-heading-title,
+.elementor-5 .elementor-element.elementor-element-e0716c2 .ha-member-name,
+.elementor-5 .elementor-element.elementor-element-cfab397 .ha-member-name,
+.elementor-5 .elementor-element.elementor-element-582318e .ha-member-name
+{
+    background: -webkit-linear-gradient(19deg, orange, red 80%)  !important;
+    -webkit-background-clip: text  !important;
+    -webkit-text-fill-color: transparent;
+    
+}
+.fas{
+    fill: red;
+}
+.elementor-widget-text-editor {
+    color: white !important;
+}
