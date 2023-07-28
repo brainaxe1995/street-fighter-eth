@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap');
+
+body {
+  background: black !important;
+}
 .aboutSec {
     align-items: center  !important;
 }
@@ -83,98 +88,6 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
     width: 100%;
     background: #0000007a;
 }
-
-
-
-
-
-
-
- 
-  
-  .splash-screen {
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  .title-Head {
-    margin: auto;
-    font-family: "Permanent Marker", monospace;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 40vh;
-    font-size: 2rem  !important;
-    line-height: 0.75;
-    word-break: break-word;
-    max-width: 500px;
-  }
-  
-  .title-Head h1 {
-    background: -webkit-linear-gradient(rgb(255, 18, 18) 30%, rgb(255, 215, 38));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .title-top {
-    transform: skew(-10deg) rotate(-10deg) translateX(-2rem);
-  }
-  
-  .title-bottom {
-    transform: skew(-10deg) rotate(-10deg) translateX(1rem);
-  }
-  
-  
-  .bottom {
-    display: flex;
-    flex-direction: column;
-    height: 10vh;
-  }
-  
-  .credit {
-    margin-top: 10px;
-    pointer-events: none;
-  }
-  
-  .grey-with-red {
-    color: rgb(192, 192, 192);
-    text-shadow: 2px 2px 0 rgb(192, 11, 11);
-  }
-  
-  .purple-with-blue {
-    color: rgb(147, 154, 255);
-    text-shadow: 2px 2px 0 rgb(47, 61, 255);
-  }
-  
-  .yellow-with-darkyellow {
-    color: rgb(226, 179, 24);
-    text-shadow: 0 2px 0 rgb(107, 77, 11), 2px 0 0 rgb(151, 109, 19),
-      2px 2px 0 rgb(151, 109, 19);
-  }
-  
-  .yellow {
-    color: rgb(226, 179, 24);
-  }
-  
-  .big {
-    font-size: 6rem  !important;
-  }
-  
-  @media (min-width: 400px) {
-
-    .big {
-      font-size: 7rem  !important;
-    }
-  }
-  .buttons {
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
 @media (max-width: 600px) {
   .elementor-section .elementor-container {
 
@@ -183,60 +96,191 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 img.hfe-site-logo-img.elementor-animation- {
   max-width: 45% !important;
 }
+  
+}
+@media (min-width: 800px) {
+   
+  .hfe-site-logo-container {
+    max-width: 53% !important;
+}
+}
+
+
+
+
+
+/*flash*/
+.HeadSplash {
+  color: white;
+  background-color: black;
+  font-family: "Press Start 2P", monospace !important;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.HeadSplash:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: repeating-linear-gradient(#0D122B, #0D122B 2px, #565B73 2px, #565B73 4px);
+  opacity: 0.2;
+  z-index: 100;
+  content: "";
+  pointer-events: none;
+}
+
+a.nHead {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1.hTitle {
+  margin: 0;
+}
+
 .splash-screen {
-  height: 81vh !important;
+  width: 100vw;
+  height: 100vh;
 }
-  
+
+.title-head {
+  margin: auto;
+  font-family: "Permanent Marker", monospace !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh;
+  font-size: 2rem;
+  line-height: 0.75;
+  word-break: break-word;
+  max-width: 500px;
 }
-  @media (min-width: 600px) {
-    .big {
-      font-size: 9rem  !important;
-    }
-  
-    .title-Head {
-      font-size: 3rem  !important;
-      height: 50vh;
-    }
-    
-  
-    .title-top {
-      transform: skew(-10deg) rotate(-10deg) translateX(-2rem);
-    }
-  
-    .title-bottom {
-      transform: skew(-10deg) rotate(-10deg) translateX(3rem);
-    }
-  }
-  
 
+.title-head h1 {
+  background: -webkit-linear-gradient(rgb(255, 18, 18) 30%, rgb(255, 215, 38));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Permanent Marker", monospace !important;
+}
 
+.title-top {
+  transform: skew(-10deg) rotate(-10deg) translateX(-2rem);
+}
 
-  @media (min-width: 800px) {
-    .credit {
-      position: absolute;
-      right: 50px;
-      margin-top: 0;
-    }
-    .hfe-site-logo-container {
-      max-width: 53% !important;
+.title-bottom {
+  transform: skew(-10deg) rotate(-10deg) translateX(1rem);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  margin: auto;
+}
+
+.buttons a {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.credit {
+  margin-top: 10px;
+  pointer-events: none;
+}
+
+.grey-with-red {
+  color: rgb(192, 192, 192);
+  text-shadow: 2px 2px 0 rgb(192, 11, 11);
+}
+
+.purple-with-blue {
+  color: rgb(147, 154, 255);
+  text-shadow: 2px 2px 0 rgb(47, 61, 255);
+}
+
+.yellow-with-darkyellow {
+  color: rgb(226, 179, 24);
+  text-shadow: 0 2px 0 rgb(107, 77, 11), 2px 0 0 rgb(151, 109, 19),
+    2px 2px 0 rgb(151, 109, 19);
+}
+
+.yellow {
+  color: rgb(226, 179, 24);
+}
+
+.big {
+  font-size: 6rem;
+}
+
+@media (min-width: 400px) {
+  body {
+    font-size: 1.2rem;
   }
+
+  .big {
+    font-size: 7rem;
   }
-  
-  /* Stole this idea from twilioquest, it's freaking sick. */
-  .load {
-    animation: load 800ms 500ms backwards;
+}
+
+@media (min-width: 600px) {
+  .big {
+    font-size: 9rem;
   }
-  
-  @keyframes load {
-    0% {
-      filter: blur(2px) hue-rotate(-150deg);
-    }
+
+  .title-head {
+    font-size: 3rem;
+    height: 50vh;
   }
-  
-  ::selection {
-    background: #b4fdff;
+
+  .buttons {
+    height: 40vh;
   }
-  
-  ::-moz-selection {
-    background: #b4fdff;
+
+  .title-top {
+    transform: skew(-10deg) rotate(-10deg) translateX(-2rem);
   }
+
+  .title-bottom {
+    transform: skew(-10deg) rotate(-10deg) translateX(3rem);
+  }
+}
+
+@media (min-width: 800px) {
+  .credit {
+    position: absolute;
+    right: 50px;
+    margin-top: 0;
+  }
+}
+
+/* Stole this idea from twilioquest, it's freaking sick. */
+.load {
+  animation: load 800ms 500ms backwards;
+}
+
+@keyframes load {
+  0% {
+    filter: blur(2px) hue-rotate(-150deg);
+  }
+}
+
+::selection {
+  background: #b4fdff;
+}
+
+::-moz-selection {
+  background: #b4fdff;
+}
