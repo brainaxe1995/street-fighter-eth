@@ -113,6 +113,19 @@ img.hfe-site-logo-img.elementor-animation- {
 {
   border-color: black !important;
 }
+.elementor-5 .elementor-element.elementor-element-c2b00fa > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-52db1ae > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-5426640 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-18903e9 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-77cd434 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-528d998 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-117eff0 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-117eff0 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-0b29ff1 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-66dfef3 > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-21ede7b > .elementor-element-populated{
+  box-shadow: none !important;
+}
 
 
 
