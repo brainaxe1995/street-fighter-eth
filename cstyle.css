@@ -180,6 +180,12 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 
     justify-content: center !important;
 }
+img.hfe-site-logo-img.elementor-animation- {
+  max-width: 45% !important;
+}
+.splash-screen {
+  height: 81vh !important;
+}
   
 }
   @media (min-width: 600px) {
@@ -211,6 +217,9 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
       right: 50px;
       margin-top: 0;
     }
+    .hfe-site-logo-container {
+      max-width: 53% !important;
+  }
   }
   
   /* Stole this idea from twilioquest, it's freaking sick. */
