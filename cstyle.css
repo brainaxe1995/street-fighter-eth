@@ -4,7 +4,8 @@
 
 a.elementor-button.elementor-button-link.elementor-size-sm.elementor-animation-bob,
 a.hfe-menu-item.elementor-button,
-a.elementor-button.elementor-button-link.elementor-size-sm{
+a.elementor-button.elementor-button-link.elementor-size-sm,
+.elementor-106 .elementor-element.elementor-element-331239d .metform-btn{
     background-image: linear-gradient(to right, orange, red)  !important;
 }
 
@@ -18,8 +19,15 @@ a.elementor-button.elementor-button-link.elementor-size-sm{
 .elementor-5 .elementor-element.elementor-element-117eff0 > .elementor-element-populated,
 .elementor-5 .elementor-element.elementor-element-0b29ff1 > .elementor-element-populated,
 .elementor-5 .elementor-element.elementor-element-66dfef3 > .elementor-element-populated,
-.elementor-5 .elementor-element.elementor-element-21ede7b > .elementor-element-populated {
-    border-image: linear-gradient(to right, orange, red) !important;
+.elementor-5 .elementor-element.elementor-element-21ede7b > .elementor-element-populated,
+.elementor-5 .elementor-element.elementor-element-aa9ccbe .jeg-elementor-kit.jkit-accordion .card-wrapper,
+.elementor-5 .elementor-element.elementor-element-e0716c2 > .elementor-widget-container,
+.elementor-5 .elementor-element.elementor-element-cfab397 > .elementor-widget-container,
+.elementor-5 .elementor-element.elementor-element-582318e > .elementor-widget-container,
+.elementor-5 .elementor-element.elementor-element-16c1b23,
+.elementor-5 .elementor-element.elementor-element-461ac34 > .elementor-widget-container,
+.elementor-106 .elementor-element.elementor-element-d2e15df .mf-input, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-file-upload-label, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-calculation-total, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-select > .mf_select__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-multiselect .mf_multiselect__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf_multiselect__option {
+    border-color: rgb(255, 119, 8) !important;
 }
 
 
@@ -38,7 +46,20 @@ a.elementor-button.elementor-button-link.elementor-size-sm{
 .elementor-5 .elementor-element.elementor-element-650237f .elementor-heading-title,
 .elementor-5 .elementor-element.elementor-element-e0716c2 .ha-member-name,
 .elementor-5 .elementor-element.elementor-element-cfab397 .ha-member-name,
-.elementor-5 .elementor-element.elementor-element-582318e .ha-member-name
+.elementor-5 .elementor-element.elementor-element-582318e .ha-member-name,
+.elementor-5 .elementor-element.elementor-element-aa9ccbe .jeg-elementor-kit.jkit-accordion .card-wrapper.expand .card-header .card-header-button,
+.elementor-5 .elementor-element.elementor-element-aa9ccbe .jeg-elementor-kit.jkit-accordion .card-wrapper:not(.expand) .card-header .card-header-button,
+.elementor-5 .elementor-element.elementor-element-8812e55 .elementor-heading-title,
+.elementor-59 .elementor-element.elementor-element-976c226 .elementor-heading-title,
+.elementor-59 .elementor-element.elementor-element-da6cc1f .elementor-heading-title,
+.elementor-59 .elementor-element.elementor-element-c29d352 .elementor-heading-title,
+.elementor-106 .elementor-element.elementor-element-d2e15df .mf-input, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-file-upload-label, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-calculation-total, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-select > .mf_select__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-multiselect .mf_multiselect__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf_multiselect__option
+,.elementor-5 .elementor-element.elementor-element-586d49c .ha-fun-factor__content-number,
+.elementor-5 .elementor-element.elementor-element-efd127a .ha-fun-factor__content-number,
+.elementor-5 .elementor-element.elementor-element-a4305e5 .ha-fun-factor__content-number-prefix,
+.elementor-5 .elementor-element.elementor-element-586d49c .ha-fun-factor__content-number-suffix,.elementor-5 .elementor-element.elementor-element-efd127a .ha-fun-factor__content-number-suffix,
+.elementor-5 .elementor-element.elementor-element-a4305e5 .ha-fun-factor__content-number
+
 {
     background: -webkit-linear-gradient(19deg, orange, red 80%)  !important;
     -webkit-background-clip: text  !important;
