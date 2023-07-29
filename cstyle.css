@@ -11,7 +11,7 @@ a.elementor-button.elementor-button-link.elementor-size-sm.elementor-animation-b
 a.hfe-menu-item.elementor-button,
 a.elementor-button.elementor-button-link.elementor-size-sm,
 .elementor-106 .elementor-element.elementor-element-331239d .metform-btn{
-    background-image: linear-gradient(to right, orange, red)  !important;
+    background-image: linear-gradient(to right, #35cbfe, #ee5fa1)  !important;
 }
 
 .elementor-5 .elementor-element.elementor-element-c2b00fa > .elementor-element-populated,
@@ -32,7 +32,7 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 .elementor-5 .elementor-element.elementor-element-16c1b23,
 .elementor-5 .elementor-element.elementor-element-461ac34 > .elementor-widget-container,
 .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-file-upload-label, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-wrapper .iti--separate-dial-code .iti__selected-flag, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-calculation-total, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-select > .mf_select__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf-input-multiselect .mf_multiselect__control, .elementor-106 .elementor-element.elementor-element-d2e15df .mf_multiselect__option {
-    border-color: rgb(255, 119, 8) !important;
+    border-color: rgb(158 123 177) !important;
 }
 
 
@@ -66,13 +66,14 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 .elementor-5 .elementor-element.elementor-element-a4305e5 .ha-fun-factor__content-number
 
 {
-    background: -webkit-linear-gradient(19deg, orange, red 80%)  !important;
+    background: -webkit-linear-gradient(19deg, #35cbfe, #ee5fa1 80%)  !important;
     -webkit-background-clip: text  !important;
     -webkit-text-fill-color: transparent;
     
 }
-.fas{
-    fill: red;
+.fas {
+  fill: rgb(158 123 177) !important;
+  color: rgb(158 123 177) !important;
 }
 .elementor-widget-text-editor {
     color: white !important;
@@ -143,7 +144,7 @@ img.hfe-site-logo-img.elementor-animation- {
 }
 
 
-.elementor-widget-text-editor {
+.elementor-widget-text-editor,.elementor-5 .elementor-element.elementor-heading-title{
   font-family: var(--e-global-typography-45fe920-font-family ), sans-serif !important;
 }
 
@@ -219,7 +220,7 @@ h1.hTitle {
 }
 
 .title-head h1 {
-  background: -webkit-linear-gradient(rgb(255, 18, 18) 30%, rgb(255, 215, 38));
+  background: -webkit-linear-gradient(#35cbfe 30%, #ee5fa1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Permanent Marker", monospace !important;
