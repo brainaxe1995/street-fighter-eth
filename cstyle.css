@@ -100,13 +100,20 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 img.hfe-site-logo-img.elementor-animation- {
   max-width: 45% !important;
 }
-  
+h1.hTitle {
+  margin: 0;
+  line-height: 58px !important;
+}
 }
 @media (min-width: 800px) {
    
   .hfe-site-logo-container {
     max-width: 53% !important;
 }
+h1.hTitle {
+  margin: 0;
+  line-height: 58px !important;
+} 
 }
 
 .faqFlex {
@@ -196,10 +203,6 @@ a.nHead {
   color: inherit;
 }
 
-h1.hTitle {
-  margin: 0;
-  line-height: 100px !important;
-}
 
 .splash-screen {
   width: 100vw;
