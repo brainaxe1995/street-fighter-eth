@@ -198,6 +198,7 @@ a.nHead {
 
 h1.hTitle {
   margin: 0;
+  line-height: 100px !important;
 }
 
 .splash-screen {
