@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap');
 
-body {
+body,.elementor-5 .elementor-element.elementor-element-caeff3b > .elementor-background-overlay {
   background: black !important;
 }
 .aboutSec {
