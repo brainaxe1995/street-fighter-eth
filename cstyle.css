@@ -122,6 +122,9 @@ h1.hTitle {
   margin: 0;
   line-height: 102px !important;
 } 
+.title-bottom {
+  transform: skew(-10deg) rotate(-10deg) translateX(-2rem) !important;
+}
 }
 
 .faqFlex {
