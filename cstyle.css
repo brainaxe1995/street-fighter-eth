@@ -71,10 +71,7 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
     -webkit-text-fill-color: transparent;
     
 }
-.fas {
-  fill: rgb(158 123 177) !important;
-  color: rgb(158 123 177) !important;
-}
+
 .elementor-widget-text-editor {
     color: white !important;
 }
