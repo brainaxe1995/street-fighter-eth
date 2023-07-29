@@ -157,6 +157,9 @@ h1.hTitle {
 .elementor-widget-text-editor,.elementor-5 .elementor-element.elementor-heading-title,.jeg-elementor-kit.jkit-accordion .card-wrapper .card-header .card-header-button .title,.elementor-5 .elementor-element.elementor-element-aa9ccbe .jeg-elementor-kit.jkit-accordion .card-expand .card-body{
   font-family: var(--e-global-typography-45fe920-font-family ), sans-serif !important;
 }
+.footerF {
+  justify-content: center;
+}
 
 
 
