@@ -143,7 +143,9 @@ img.hfe-site-logo-img.elementor-animation- {
 }
 
 
-
+.elementor-widget-text-editor {
+  font-family: var(--e-global-typography-45fe920-font-family ), sans-serif !important;
+}
 
 
 
