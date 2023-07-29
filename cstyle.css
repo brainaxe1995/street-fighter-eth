@@ -104,6 +104,9 @@ h1.hTitle {
   margin: 0;
   line-height: 58px !important;
 }
+.title-top {
+  transform: skew(-10deg) rotate(-10deg) translateX(0rem) !important;
+}
 }
 @media (min-width: 800px) {
    
