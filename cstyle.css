@@ -97,6 +97,9 @@ a.elementor-button.elementor-button-link.elementor-size-sm,
 
     justify-content: center !important;
 }
+img.headLogo {
+  width: 63%;
+}
 img.hfe-site-logo-img.elementor-animation- {
   max-width: 45% !important;
 }
