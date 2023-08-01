@@ -365,3 +365,19 @@ a.nHead {
 ::-moz-selection {
   background: #b4fdff;
 }
+
+
+
+
+
+
+iframe.marioG {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
