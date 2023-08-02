@@ -3136,7 +3136,7 @@
 													</div>
 												</div>
 											</div>
-											<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-eaf9fb1" data-id="eaf9fb1" data-element_type="column">
+											<!--div-- class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-eaf9fb1" data-id="eaf9fb1" data-element_type="column">
 												<div class="elementor-widget-wrap elementor-element-populated">
 													<div class="elementor-element elementor-element-c29d352 elementor-widget elementor-widget-heading" data-id="c29d352" data-element_type="widget" data-widget_type="heading.default">
 														<div class="elementor-widget-container">
@@ -3148,18 +3148,10 @@
 																<div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="106">
 																	<div class="elementor-widget-container">
 																		<div id="metform-wrap-46a0dcd-106" class="mf-form-wrapper" data-form-id="106" data-action="https://freevetis.com/kittypix/wp-json/metform/v1/entries/insert/106" data-wp-nonce="d54db68f5f" data-form-nonce="de8b85f080" data-quiz-summery="false" data-save-progress="false" data-form-type="contact_form" data-stop-vertical-effect=""></div>
-																		<!----------------------------- 
-			* controls_data : find the the props passed indie of data attribute
-			* props.SubmitResponseMarkup : contains the markup of error or success message
-			* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-		--------------------------- -->
+																		
 																		<script type="text/mf" class="mf-template"> function controls_data (value){ let currentWrapper = "mf-response-props-id-106"; let currentEl = document.getElementById(currentWrapper); return currentEl ? currentEl.dataset[value] : false } let is_edit_mode = '' ? true : false; let message_position = controls_data('messageposition') || 'top'; let message_successIcon = controls_data('successicon') || ''; let message_errorIcon = controls_data('erroricon') || ''; let message_editSwitch = controls_data('editswitchopen') === 'yes' ? true : false; let message_proClass = controls_data('editswitchopen') === 'yes' ? 'mf_pro_activated' : ''; let is_dummy_markup = is_edit_mode && message_editSwitch ? true : false; return html`
 																			<form className="metform-form-content" ref=${parent.formContainerRef} onSubmit=${ validation.handleSubmit( parent.handleFormSubmit ) }> ${is_dummy_markup ? message_position === 'top' ? props.ResponseDummyMarkup(message_successIcon, message_proClass) : '' : ''} ${is_dummy_markup ? ' ' : message_position === 'top' ? props.SubmitResponseMarkup`${parent}${state}${message_successIcon}${message_errorIcon}${message_proClass}` : ''}
-																				<!--------------------------------------------------------
-					*** IMPORTANT / DANGEROUS ***
-					${html``} must be used as in immediate child of "metform-form-main-wrapper"
-					class otherwise multistep form will not run at all
-					---------------------------------------------------------->
+																				
 																				<div className="metform-form-main-wrapper" key=${ 'hide-form-after-submit'} ref=${parent.formRef}> ${html`
 																					<div data-elementor-type="wp-post" key="2" data-elementor-id="106" className="elementor elementor-106">
 																						<section className="elementor-section elementor-top-section elementor-element elementor-element-ca76b42 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca76b42" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
@@ -3207,7 +3199,7 @@
 														</div>
 													</div>
 												</div>
-											</div>
+											</!--div-->
 										</div>
 									</section>
 								</div>
